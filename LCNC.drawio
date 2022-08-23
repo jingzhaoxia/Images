@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T07:15:47.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u7VFggTXdC0IRdCK-yd2" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T07:17:40.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zEscPuMbMs32ZrPbbQI2" version="20.2.6" type="github">
   <diagram name="CompositePanel" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="973" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -21,9 +21,9 @@
             <mxPoint x="730" y="628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e0FxQF2SU8SoNp0TGnQV-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="e0FxQF2SU8SoNp0TGnQV-2">
+        <mxCell id="e0FxQF2SU8SoNp0TGnQV-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="203.5" as="targetPoint" />
+            <mxPoint x="1150" y="358" as="targetPoint" />
             <Array as="points">
               <mxPoint x="270" y="350" />
               <mxPoint x="980" y="350" />
@@ -35,19 +35,17 @@
           <mxGeometry x="60" y="87" width="420" height="233" as="geometry" />
         </mxCell>
         <mxCell id="e0FxQF2SU8SoNp0TGnQV-1" value="CompositePanel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;spacingTop=4;spacingBottom=4;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="280" width="390" height="288" as="geometry" />
+          <mxGeometry x="1150" y="280" width="390" height="246" as="geometry" />
         </mxCell>
-        <mxCell id="e0FxQF2SU8SoNp0TGnQV-2" value="React.FC&lt;ICompositePanelProps&gt; &amp; &#xa;{&#xa;  Item: React.FC&lt;ICompositePanelItemProps&gt;&#xa;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacingTop=4;spacingBottom=4;" vertex="1" parent="e0FxQF2SU8SoNp0TGnQV-1">
-          <mxGeometry y="26" width="390" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="e0FxQF2SU8SoNp0TGnQV-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=4;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=12;spacingBottom=4;" vertex="1" parent="e0FxQF2SU8SoNp0TGnQV-1">
-          <mxGeometry y="130" width="390" height="8" as="geometry" />
+        <mxCell id="e0FxQF2SU8SoNp0TGnQV-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #267f99;&quot;&gt;React&lt;/span&gt;.&lt;span style=&quot;color: #267f99;&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #267f99;&quot;&gt;ICompositePanelProps&lt;/span&gt;&amp;gt; &amp;amp; {&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #001080;&quot;&gt;Item&lt;/span&gt;: &lt;span style=&quot;color: #267f99;&quot;&gt;React&lt;/span&gt;.&lt;span style=&quot;color: #267f99;&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #267f99;&quot;&gt;ICompositePanelItemProps&lt;/span&gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="e0FxQF2SU8SoNp0TGnQV-1">
+          <mxGeometry y="26" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e0FxQF2SU8SoNp0TGnQV-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacingTop=4;spacingBottom=4;" vertex="1" parent="e0FxQF2SU8SoNp0TGnQV-1">
-          <mxGeometry y="138" width="390" height="150" as="geometry" />
+          <mxGeometry y="96" width="390" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="e0FxQF2SU8SoNp0TGnQV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e0FxQF2SU8SoNp0TGnQV-8" target="e0FxQF2SU8SoNp0TGnQV-2">
+        <mxCell id="e0FxQF2SU8SoNp0TGnQV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e0FxQF2SU8SoNp0TGnQV-8">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="358" as="targetPoint" />
             <Array as="points">
               <mxPoint x="340" y="350" />
               <mxPoint x="980" y="350" />
