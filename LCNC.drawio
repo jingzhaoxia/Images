@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T09:59:05.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yyQbJ-b8VW9YJxE1qgHo" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T10:09:57.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VoHoR6WexEh9Tlt9bpep" version="20.2.6" type="github">
   <diagram name="CompositePanel" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1405" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
         <mxCell id="e0FxQF2SU8SoNp0TGnQV-49" value="右侧内容" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1080" y="176" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e0FxQF2SU8SoNp0TGnQV-50" value="ResourceWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="e0FxQF2SU8SoNp0TGnQV-50" value="IResourceWidgetProps" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1270" y="1150" width="410" height="224" as="geometry" />
         </mxCell>
         <mxCell id="e0FxQF2SU8SoNp0TGnQV-51" value="+ title: React.ReactNode        「title」&#xa;+ sources?: IResourceLike[]    「源，可选，」&#xa;+ className?: string            「样式名，可选」&#xa;+ defaultExpand?: boolean    「默认是否展开」&#xa;+   children?: SourceMapper | React.ReactElement    「子元素」" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="e0FxQF2SU8SoNp0TGnQV-50">
